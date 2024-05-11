@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LaunchNyka {
 
-	@Test
+	@Test(groups = "beauty")
 	public void nyka() {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();

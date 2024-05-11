@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LaunchSugar {
 
-	@Test
+	@Test(groups = "beauty")
 	public void sugar() {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();

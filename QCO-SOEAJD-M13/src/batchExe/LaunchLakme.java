@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LaunchLakme {
 
-	@Test
+	@Test(groups = "beauty")
 	public void lakme() {
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LaunchLoreal {
 
-	@Test
+	@Test(groups = "beauty")
 	public void loreal() {
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();

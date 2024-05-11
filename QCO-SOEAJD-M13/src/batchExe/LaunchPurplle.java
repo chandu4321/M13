@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LaunchPurplle {
 
-	@Test
+	@Test(groups = "beauty")
 	public void purplle() {
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
